@@ -1,5 +1,5 @@
 ﻿using System;
-using Tabuleiro;
+using board;
 
 namespace chess_console
 {
@@ -8,7 +8,7 @@ namespace chess_console
         static void Main(string[] args)
         {
 
-            Posicao P = new Posicao(3, 4);
+            Position P = new Position(3, 4);
 
             Console.WriteLine("Posicao: " + P);
 
